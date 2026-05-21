@@ -1,0 +1,51 @@
+[
+  {
+    "id": "crawler",
+    "name": "啃噬者",
+    "sprite": "enemy_crawler",
+    "hp": 34,
+    "speed": 76,
+    "damage": 8,
+    "xp": 4,
+    "radius": 19,
+    "mass": 1.0,
+    "score": 8
+  },
+  {
+    "id": "spitter",
+    "name": "腐液喷吐者",
+    "sprite": "enemy_spitter",
+    "hp": 52,
+    "speed": 55,
+    "damage": 9,
+    "xp": 6,
+    "radius": 21,
+    "mass": 1.1,
+    "score": 13
+  },
+  {
+    "id": "brute",
+    "name": "甲壳重兽",
+    "sprite": "enemy_brute",
+    "hp": 138,
+    "speed": 43,
+    "damage": 18,
+    "xp": 14,
+    "radius": 31,
+    "mass": 2.4,
+    "score": 32
+  },
+  {
+    "id": "alpha",
+    "name": "晶化首领",
+    "sprite": "enemy_alpha",
+    "hp": 860,
+    "speed": 35,
+    "damage": 24,
+    "xp": 90,
+    "radius": 55,
+    "mass": 5.5,
+    "score": 220
+  }
+]
+

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "chain_swarm",
+    "name": "雷网形态",
+    "build": "电",
+    "rarity": "rare",
+    "max_stacks": 4,
+    "summary": "电链多弹跳 1 次，连锁范围扩大。",
+    "effects": {"chain_count": 1, "chain_range": 28, "electric_damage": 4}
+  },
+  {
+    "id": "forked_current",
+    "name": "分叉电流",
+    "build": "电",
+    "rarity": "uncommon",
+    "max_stacks": 4,
+    "summary": "电链有概率向额外目标分叉。",
+    "effects": {"fork_chance": 0.16, "electric_damage": 3}
+  },
+  {
+    "id": "capacitor_fang",
+    "name": "蓄电獠牙",
+    "build": "电",
+    "rarity": "common",
+    "max_stacks": 8,
+    "summary": "提升电链伤害并略微缩短冷却。",
+    "effects": {"electric_damage": 8, "electric_cooldown": -0.05}
+  },
+  {
+    "id": "storm_orbit",
+    "name": "雷核伴飞",
+    "build": "电",
+    "rarity": "epic",
+    "max_stacks": 3,
+    "summary": "生成围绕主角旋转并自动放电的雷核。",
+    "effects": {"thunder_cores": 1, "electric_damage": 6}
+  },
+  {
+    "id": "overload_mark",
+    "name": "过载标记",
+    "build": "电",
+    "rarity": "rare",
+    "max_stacks": 3,
+    "summary": "感电叠满后爆发范围电磁伤害。",
+    "effects": {"overload": true, "shock_damage": 7, "chain_range": 12}
+  },
+  {
+    "id": "static_execution",
+    "name": "静电处决",
+    "build": "电",
+    "rarity": "epic",
+    "max_stacks": 2,
+    "summary": "电链可处决残血感电目标。",
+    "effects": {"shock_execute": 0.08, "electric_damage": 8}
+  },
+  {
+    "id": "frenzy_cut",
+    "name": "兽性连击",
+    "build": "刀",
+    "rarity": "uncommon",
+    "max_stacks": 5,
+    "summary": "强化刀弧，击杀后短暂加速。",
+    "effects": {"slash_damage": 10, "slash_cooldown": -0.08, "frenzy_duration": 0.6}
+  },
+  {
+    "id": "wide_arc",
+    "name": "裂颅横扫",
+    "build": "刀",
+    "rarity": "common",
+    "max_stacks": 6,
+    "summary": "扩大刀弧角度和击退力。",
+    "effects": {"slash_damage": 8, "slash_arc": 0.14, "slash_knockback": 18}
+  },
+  {
+    "id": "dash_blade",
+    "name": "冲刺刀光",
+    "build": "刀",
+    "rarity": "rare",
+    "max_stacks": 3,
+    "summary": "冲刺结束时释放圆形斩击。",
+    "effects": {"dash_slash": true, "dash_slash_damage": 0.18, "dash_cooldown": -0.22}
+  },
+  {
+    "id": "razor_bleed",
+    "name": "锯齿刀口",
+    "build": "刀",
+    "rarity": "uncommon",
+    "max_stacks": 5,
+    "summary": "刀弧附带可叠加流血。",
+    "effects": {"bleed_dps": 5, "slash_damage": 4}
+  },
+  {
+    "id": "execution_instinct",
+    "name": "处决本能",
+    "build": "刀",
+    "rarity": "epic",
+    "max_stacks": 3,
+    "summary": "刀弧可处决残血目标，连杀提升伤害。",
+    "effects": {"execute_threshold": 0.09, "combo_damage": 0.003}
+  },
+  {
+    "id": "venom_spores",
+    "name": "剧毒孢子",
+    "build": "毒",
+    "rarity": "uncommon",
+    "max_stacks": 5,
+    "summary": "提高毒伤和毒池持续时间。",
+    "effects": {"poison_damage": 7, "poison_duration": 0.8}
+  },
+  {
+    "id": "acid_bloom",
+    "name": "酸蚀绽放",
+    "build": "毒",
+    "rarity": "rare",
+    "max_stacks": 3,
+    "summary": "扩大毒池，敌人死亡时留下毒雾。",
+    "effects": {"poison_radius": 18, "death_poison": true}
+  },
+  {
+    "id": "toxic_vial",
+    "name": "腐液瓶",
+    "build": "毒",
+    "rarity": "common",
+    "max_stacks": 7,
+    "summary": "缩短毒瓶冷却并提升毒伤。",
+    "effects": {"poison_cooldown": -0.45, "poison_damage": 3}
+  },
+  {
+    "id": "neurotoxin",
+    "name": "神经毒素",
+    "build": "毒",
+    "rarity": "rare",
+    "max_stacks": 3,
+    "summary": "中毒敌人被减速并受到更多非毒伤害。",
+    "effects": {"poison_slow": 0.12, "poison_vulnerability": 0.08}
+  },
+  {
+    "id": "plague_chain",
+    "name": "疫病传播",
+    "build": "毒",
+    "rarity": "epic",
+    "max_stacks": 2,
+    "summary": "中毒敌人死亡时把疫病传给附近敌人。",
+    "effects": {"plague_chain": true, "poison_damage": 5}
+  },
+  {
+    "id": "scrap_armor",
+    "name": "废铁护甲",
+    "build": "生存",
+    "rarity": "common",
+    "max_stacks": 6,
+    "summary": "提升生命上限和护甲。",
+    "effects": {"max_hp": 12, "armor": 1}
+  },
+  {
+    "id": "magnet_heart",
+    "name": "磁心项圈",
+    "build": "生存",
+    "rarity": "common",
+    "max_stacks": 5,
+    "summary": "扩大拾取范围并提高经验收益。",
+    "effects": {"pickup_radius": 18, "xp_gain": 0.08}
+  },
+  {
+    "id": "shield_burst",
+    "name": "护盾爆裂",
+    "build": "生存",
+    "rarity": "rare",
+    "max_stacks": 3,
+    "summary": "受击时触发电磁护盾反击。",
+    "effects": {"shield_burst": true, "shield_burst_damage": 18, "max_hp": 8}
+  },
+  {
+    "id": "adrenal_path",
+    "name": "肾上腺路线",
+    "build": "生存",
+    "rarity": "epic",
+    "max_stacks": 3,
+    "summary": "提高移速，缩短冲刺冷却并扩大拾取范围。",
+    "effects": {"move_speed": 18, "dash_cooldown": -0.38, "pickup_radius": 12}
+  },
+  {
+    "id": "field_scavenger",
+    "name": "战地拾荒",
+    "build": "生存",
+    "rarity": "uncommon",
+    "max_stacks": 4,
+    "summary": "补给箱产出更多资源。",
+    "effects": {"supply_luck": 1, "scrap_gain": 0.12}
+  },
+  {
+    "id": "last_stand",
+    "name": "残血反扑",
+    "build": "生存",
+    "rarity": "rare",
+    "max_stacks": 2,
+    "summary": "低生命时提升伤害和移速。",
+    "effects": {"low_hp_damage": 0.18, "low_hp_speed": 18}
+  }
+]
+

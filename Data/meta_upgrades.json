@@ -1,0 +1,31 @@
+[
+  {
+    "id": "kennel_training",
+    "name": "犬舍训练",
+    "desc": "每级 +10 最大生命。",
+    "max": 5,
+    "base_cost": 30
+  },
+  {
+    "id": "coil_research",
+    "name": "线圈研究",
+    "desc": "每级 +5% 全伤害。",
+    "max": 5,
+    "base_cost": 36
+  },
+  {
+    "id": "field_pockets",
+    "name": "野外背包",
+    "desc": "每级 +12 拾取范围。",
+    "max": 4,
+    "base_cost": 28
+  },
+  {
+    "id": "old_world_boots",
+    "name": "旧世战靴",
+    "desc": "每级 +4 移动速度。",
+    "max": 4,
+    "base_cost": 32
+  }
+]
+

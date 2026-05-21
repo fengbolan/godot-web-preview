@@ -1,0 +1,10 @@
+.godot/
+.import/
+build/*
+!build/.gdignore
+*.tmp
+*.bak
+user/
+.agent_context/
+.multica/
+AGENTS.md
