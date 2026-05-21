@@ -7,6 +7,7 @@ const PLAYER_START = ARENA_CENTER + Vector2(0, 84)
 const RUN_TARGET = 720.0
 const BOSS_TIMES = [180.0, 360.0, 540.0, 720.0]
 const SAVE_PATH = "user://hoomans_save.json"
+const UI_FONT_PATH = "res://assets/fonts/NotoSansSC-VF.ttf"
 
 var rng = RandomNumberGenerator.new()
 var font: Font
@@ -53,7 +54,9 @@ var static_fires: Array = []
 
 func _ready() -> void:
 	rng.randomize()
-	font = ThemeDB.fallback_font
+	font = load(UI_FONT_PATH) as Font
+	if font == null:
+		font = ThemeDB.fallback_font
 	_load_data()
 	_load_save()
 	_ensure_input_actions()

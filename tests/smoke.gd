@@ -37,6 +37,7 @@ func _init() -> void:
 		"res://assets/sprites/enemy_spitter.png",
 		"res://assets/sprites/enemy_brute.png",
 		"res://assets/sprites/enemy_alpha.png",
+		"res://assets/fonts/NotoSansSC-VF.ttf",
 		"res://assets/ui/icon_electric.png",
 		"res://assets/ui/icon_blade.png",
 		"res://assets/ui/icon_poison.png",
