@@ -46,6 +46,7 @@ jobs:
           mkdir -p build/web
           godot --headless --export-release Web build/web/index.html
           cp deploy/_headers build/web/_headers
+          touch build/web/.nojekyll
           echo "${GITHUB_SHA}" > build/web/version.txt
 
       - name: Upload pull request artifact
